@@ -45,6 +45,7 @@ public class Game {
             result = checkWinner();
             if (result.length() > 0){
                 System.out.println(result);
+                input.close();
                 break;
             }
         }
